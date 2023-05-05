@@ -1,0 +1,128 @@
+.container_verficareDosar{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.container_verificareDosar_elements {
+    width: 900px;
+    height: 600px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 6px 11px -2px rgb(5, 75, 226);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    z-index: 9999;
+}
+
+.container_numeStudent > .verificareDosarButton {
+    display: flex;
+    gap: 10px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    padding: 10px 15px;
+    border-radius: 10px;
+    border: 1px solid white;
+    font-size: 12px;
+    font-weight: 500;
+    background-color: #F0F0F0;
+    font-family: 'Poppins', sans-serif;
+}
+.container_verificareDosar_elements > .container_numeStudent > .numeStudent {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 65px;
+    font-family: 'Poppins', sans-serif;
+    font-size: larger;
+}
+
+.verificareDosarComplet{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    align-items: center;
+    gap: 10px;
+}
+
+.verificareDosarComplet > .verficareDosar_label {
+    display: flex;
+    gap: 10px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    padding: 10px 15px;
+    border-radius: 10px;
+    border: 1px solid white;
+    font-size: 12px;
+    font-weight: 500;
+    background-color: #F0F0F0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.mesajVerficare {
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+}
+
+.acteIncomplete {
+    color: red;
+    font-weight: 600;
+}
+
+.acteComplete {
+    color: greenyellow;
+    font-weight: 600;
+}
+.containerDosarRespins{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.containerDosarRespins > input {
+    padding: 3px 10px;
+    width: 300px;
+}
+.butonDosarRespins{
+    box-shadow: 1px 3px 12px -7px #FF0000;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    font-size: 12px;
+    font-weight: 500;
+    background-color: #F0F0F0;
+    font-family: 'Poppins', sans-serif;
+    border-radius: 10px;
+    text-align: center;
+    padding: 10px 15px;
+    width: 150px;
+}
+.butonDosarAprobat{
+    outline: none;
+    border: none;
+    cursor: pointer;
+    font-size: 12px;
+    font-weight: 500;
+    background: linear-gradient(90deg, rgba(67,67,167,1) 0%, rgba(73,73,251,1) 14%, rgba(94,94,255,1) 27%, rgba(255,0,0,1) 51%, rgba(255,140,131,1) 75%, rgba(255,255,240,1) 99%);
+    font-family: 'Poppins', sans-serif;
+    border-radius: 10px;
+    text-align: center;
+    padding: 10px 15px;
+    width: 150px;
+    color: white;
+}
+
+.disabled {
+    cursor: pointer;
+    pointer-events: none;
+    opacity: 0.5;
+}
